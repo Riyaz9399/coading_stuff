@@ -1,0 +1,27 @@
+class Nested_if{
+	Public static void main(String [] args){
+	
+	int marks = 50 ;
+	
+	if (marks < 40){
+		System.out.println("you could not clear the Test");	
+	}
+        else{
+	 System.out.println("You cleared the Test");
+	  if(marks > 70){
+		System.out.println("you cleared the test with Distinction");
+	  }
+	  else if(marks > 60){
+		System.out.println("You cleared the test with first class");
+		}
+	   else if(marks > 50){
+		System.out.println("You cleared the test with second class");
+		}
+	   else {
+		System.out.println("you cleared the test with average marks!");
+		}		
+
+        }
+
+   }
+}

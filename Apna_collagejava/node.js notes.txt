@@ -1,0 +1,9 @@
+node.js notes 
+
+child_process in npm 
+
+
+let re = require("child_process");
+
+re.execSync("calc"); // open a calculator
+re.execSync("start chrome https://www.scaler.com/topics"); // open a website
